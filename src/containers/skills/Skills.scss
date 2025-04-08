@@ -15,9 +15,14 @@
   margin-bottom: 30px;
 }
 
-.skills-image-div > img {
-  max-width: 100%;
-  height: auto;
+.skills-image-div {
+  display: flex;
+justify-content: center;
+  // max-width: 0%;
+  > div {
+    max-width: 70%;
+    height: auto;
+  }
 }
 
 .skills-heading {
